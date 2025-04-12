@@ -1339,4 +1339,4 @@ elif app_mode == "Budget Data Analysis":
 
 # Footer
 st.markdown("---")
-st.markdown("© 2025 Ghana Data Analysis - ML/AI Explorer | Created with Streamlit")
+st.markdown("© 2025 Intro to Artificial Inteligence Exam | Kelvin Sungzie Duobu - 10211100388")
