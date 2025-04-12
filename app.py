@@ -6,14 +6,14 @@ import io
 
 # Page configuration
 st.set_page_config(
-    page_title="Ghana Data Analysis - ML/AI Explorer",
+    page_title="Introduction to Artificial Inteligence Exam - ML/AI Explorer",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
 # Add title and description
-st.title("Ghana Data Analysis - ML/AI Explorer")
+st.title("Data Analysis - ML/AI Explorer")
 st.markdown("""
 This application provides interactive tools to analyze Ghana's election and budget data using various 
 machine learning and AI techniques. Explore different sections to understand patterns, make predictions, 
@@ -62,7 +62,7 @@ app_mode = st.sidebar.selectbox(
 # Home page
 if app_mode == "Home":
     st.markdown("""
-    ## Welcome to the Ghana Data Analysis - ML/AI Explorer
+    ## Welcome to the Data Analysis - ML/AI Explorer
     
     This interactive application allows you to explore and analyze data from Ghana using various 
     machine learning and AI techniques. The application includes:

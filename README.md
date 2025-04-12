@@ -1,4 +1,4 @@
-# Ghana Data Analysis - ML/AI Explorer
+# Data Analysis - ML/AI Explorer
 
 A comprehensive Streamlit application for exploring and solving various machine learning and AI problems with interactive interfaces, visualizations, and practical use cases using Ghana election and budget data.
 
