@@ -776,18 +776,18 @@ elif app_mode == "NLP & Large Language Models":
         )
         
         # HuggingFace info
-        st.info("""
-        Mistral-7B models are accessed through HuggingFace, which requires an API token.
+        # st.info("""
+        # Mistral-7B models are accessed through HuggingFace, which requires an API token.
         
-        To use these models with actual functionality in a production environment, you would need to:
-        1. Create a HuggingFace account
-        2. Subscribe to the Mistral model of your choice
-        3. Generate an API token
-        4. Add it to your environment variables
-        """)
+        # To use these models with actual functionality in a production environment, you would need to:
+        # 1. Create a HuggingFace account
+        # 2. Subscribe to the Mistral model of your choice
+        # 3. Generate an API token
+        # 4. Add it to your environment variables
+        # """)
         
         # Option to add HuggingFace token
-        if st.button("Add HuggingFace API Token"):
+        if st.button("Add your custom HuggingFace API Token"):
             st.session_state.show_token_input = True
             
         # Show token input if button was clicked
@@ -1110,10 +1110,7 @@ elif app_mode == "Election Data Analysis":
     - Regional vote distribution
     - Candidate performance comparison
     - Historical trend analysis
-    
-    ### Status:
-    🚧 Under development - More functionality coming soon!
-    """)
+     """)
     
     # Check if election data is loaded
     if st.session_state.datasets['election_data'] is None:
@@ -1339,4 +1336,4 @@ elif app_mode == "Budget Data Analysis":
 
 # Footer
 st.markdown("---")
-st.markdown("© 2025 Intro to Artificial Inteligence Exam | Kelvin Sungzie Duobu - 10211100388")
+st.markdown("Introduction to Artificial Inteligence Exam | Kelvin Sungzie Duobu - 10211100388")
