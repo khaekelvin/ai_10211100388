@@ -1,0 +1,82 @@
+Subsections:
+a) Regression Problem[6 marks]
+Build a regression model to predict a continuous variable based on user-provided input data.
+Requirements:
+1. Allow users to upload a regression related, specify the naming of the expected target column
+in the dataset (e.g., CSV file).
+2. Implement a simple linear regression model (such as predicting house prices based on features
+like size, location, etc.).
+
+3. Display results, including model performance metrics (e.g., Mean Absolute Error, R2 score)
+and a scatter plot of predictions vs. actual values.
+4. Enable users to input custom data to make predictions.
+Expected Features:
+• Dataset preview.
+• Data preprocessing options.
+• Visualization of the regression line.
+b) Clustering[6 marks]
+Perform clustering on a dataset and visualize the results.
+Requirements:
+1. Allow users to upload a dataset with multiple features (e.g., customer segmentation data).
+2. Use the K-Means Clustering algorithm to group data points into clusters.
+3. Visualize the clusters using scatter plots (if 2D) or 3D visualizations (if possible).
+4. Enable users to select the number of clusters interactively.
+Expected Features:
+• Interactive slider for selecting the number of clusters.
+• Visualization of cluster centroids and cluster memberships.
+• Downloadable clustered dataset.
+
+c) Neural Network[6 marks]
+Design and train a neural network on user-uploaded data.
+Requirements:
+1. Allow users to upload a dataset for classification tasks, specify the target column name (such
+as MNIST digits dataset or custom CSV).
+2. Build a simple Feedforward Neural Network using TensorFlow or PyTorch.
+3. Display training and validation accuracy/loss during the training process.
+4. Provide an option for users to make predictions on new data using the trained model.
+Expected Features:
+• Real-time training progress visualization (e.g., loss/accuracy graphs).
+• Option to tweak hyperparameters (e.g., epochs, learning rate).
+• Upload custom test samples for prediction.
+
+d) Large Language Model (LLM)[10 mark]
+Develop a Large Language Model Solution, Q&A, with the following requirements.
+Requirements:
+1. Use an open sources pre-trained LLM model such as mistralai/Mistral-7B-Instruct-v0.1, etc
+choose ONE LLM approach below and ONE Dataset to perform natural language processing
+task such as Question and answers from the custom data.
+i. LLM Approach:
+a. LLM RAG,
+b. LLM Multimodal
+ii. Dataset :
+
+a. Academic City Student policy document(pdf)
+b. Academic City Multimedia data(get multimedia data from acity)
+c. The dataset (
+https://github.com/GodwinDansoAcity/acitydataset/blob/main/Ghana_Election_
+Result.csv)
+d. The file stored
+
+https://mofep.gov.gh/sites/default/files/budget-statements/2025-Budget-
+Statement-and-Economic-Policy_v4.pdf
+
+2. Draw the architecture for the approach.
+3. Explain the methodology in detail
+4. Allow users to perform Q & A tasks.
+5. Display the generated responses in real time.
+Expected Features:
+• Input box for text queries.
+• Display confidence scores or additional metadata.
+Project Deliverables:
+1. Streamlit Application:[2 marks]
+o Unified dashboard with navigation for all sub-tasks(a, b, c and d).
+o Interactive interfaces for data uploads, model training, and results visualization.
+2. Documentation:[20 marks]
+o Clear instructions on how to use each feature.[2 marks]
+o For (d), a detailed description of datasets and models used.[2 marks]
+o Detailed architecture for (d). A high mark will be given to the novelty of the
+approach[6 marks]
+o For (d), a Detailed description of the methodology[6 marks]
+
+o For (d), evaluate, analyse and compare your result with results from ChatGPT[4
+marks]
