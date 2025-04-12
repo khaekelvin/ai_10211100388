@@ -1331,8 +1331,7 @@ elif app_mode == "Budget Data Analysis":
         for i, policy in enumerate(policy_priorities):
             st.write(f"{i + 1}. {policy}")
         
-        # Disclaimer about simulated data
-        st.info("Note: This analysis is based on simulated data for demonstration purposes. For actual analysis, we would need to install libraries like PyPDF2 to extract text from the PDF document.")
+      
 
 # Footer
 st.markdown("---")
