@@ -1,4 +1,7 @@
+# ai_10211100388
+# Kelvin Sungzie Duobu
 # Data Analysis - ML/AI Explorer
+### https://ai10211100388.streamlit.app/
 
 A comprehensive Streamlit application for exploring and solving various machine learning and AI problems with interactive interfaces, visualizations, and practical use cases using Ghana election and budget data.
 
@@ -24,7 +27,7 @@ This application requires Python 3.8+ and the following libraries:
 2. Navigate to the project directory in your terminal
 
 ```bash
-cd path/to/ghana-data-analysis
+cd path/to/data-analysis
 ```
 
 3. Install the required packages
@@ -36,7 +39,6 @@ pip install streamlit pandas numpy
 You can also install additional packages if you want to enhance functionality:
 
 ```bash
-# Optional - for advanced functionality
 pip install matplotlib seaborn scikit-learn
 ```
 
@@ -77,11 +79,8 @@ This will start the application and automatically open it in your default web br
 
 ## Using External APIs (Optional)
 
-For enhanced LLM functionality, you can provide API keys for:
-- OpenAI (for GPT-4o)
-- Anthropic (for Claude-3-Sonnet)
-
-These can be added as environment variables or through Streamlit's secrets management.
+For enhanced LLM functionality, you can provide your custom API keys for:
+- Mistral AI
 
 ## Data Sources
 
@@ -251,14 +250,4 @@ Our application implements a comprehensive RAG architecture to enhance Mistral-7
 
 Overall, our Mistral-7B RAG implementation delivers more accurate, relevant, and verifiable responses on Ghana-specific queries while maintaining source transparency and potential for local deployment.
 
-## Troubleshooting
-
-If you encounter any issues:
-1. Ensure all dependencies are correctly installed
-2. Check that data files are in the expected locations
-3. Verify you have sufficient permissions for file access
-4. For LLM functionality, check your API keys and internet connection
-
-## License
-
-This project is available for educational and research purposes.
+Kelvin Sungzie Duobu - 10211100388
