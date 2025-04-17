@@ -503,7 +503,6 @@ elif app_mode == "Neural Networks":
                 
                 # Simulated training procedure (since we don't have TensorFlow)
                 if st.button("Train Neural Network"):
-                    st.info("Since TensorFlow is not available, we're showing a simulated neural network training process.")
                     
                     # Simulate data preparation
                     st.write("### Data Preparation")
